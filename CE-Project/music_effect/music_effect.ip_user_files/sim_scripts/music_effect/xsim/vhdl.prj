@@ -1,0 +1,41 @@
+vhdl xil_defaultlib  \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ip/music_effect_rst_ps7_0_50M_0/sim/music_effect_rst_ps7_0_50M_0.vhd" \
+
+vhdl axi_i2s_adi_v1_00_a  \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_tx.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_controller.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd" \
+
+vhdl axi_i2s_adi_v1_00_a  \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/fifo_synchronizer.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_rx.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_clkgen.vhd" \
+
+vhdl adi_common_v1_00_a  \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_streaming_dma_rx_fifo.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_ctrlif.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/pl330_dma_fifo.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_streaming_dma_tx_fifo.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/dma_fifo.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ip/music_effect_axi_i2s_adi_0_2/sim/music_effect_axi_i2s_adi_0_2.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/60b5/sources_1/new/clk_slow.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ip/music_effect_clk_slow_0_0/sim/music_effect_clk_slow_0_0.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/9e30/MCLK_gen.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ip/music_effect_MCLK_gen_0_0/sim/music_effect_MCLK_gen_0_0.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/685b/hdl/PS_to_PL_v1_0_S00_AXI.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/685b/hdl/PS_to_PL_v1_0.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ip/music_effect_PS_to_PL_0_0/sim/music_effect_PS_to_PL_0_0.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/a495/sources_1/new/Distortion.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ip/music_effect_Distortion_0_0/sim/music_effect_Distortion_0_0.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/9f25/control.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ip/music_effect_control_0_0/sim/music_effect_control_0_0.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/16bb/hdl/PL_to_PS_v1_0_S00_AXI.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/16bb/hdl/PL_to_PS_v1_0.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ip/music_effect_PL_to_PS_0_0/sim/music_effect_PL_to_PS_0_0.vhd" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/sim/music_effect.vhd" \
+
+nosort

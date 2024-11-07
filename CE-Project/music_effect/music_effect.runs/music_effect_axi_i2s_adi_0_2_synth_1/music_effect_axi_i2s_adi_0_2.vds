@@ -1,0 +1,493 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Nov  7 21:28:18 2024
+# Process ID: 20596
+# Current directory: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_axi_i2s_adi_0_2_synth_1
+# Command line: vivado.exe -log music_effect_axi_i2s_adi_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source music_effect_axi_i2s_adi_0_2.tcl
+# Log file: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_axi_i2s_adi_0_2_synth_1/music_effect_axi_i2s_adi_0_2.vds
+# Journal file: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_axi_i2s_adi_0_2_synth_1\vivado.jou
+# Running On: DESKTOP-O4PPJN1, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 17055 MB
+#-----------------------------------------------------------
+source music_effect_axi_i2s_adi_0_2.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 429.617 ; gain = 103.723
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/tabis/OneDrive/Desktop/CE-Project/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_axi_i2s_adi_0_2
+Command: synth_design -top music_effect_axi_i2s_adi_0_2 -part xc7z010clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26668
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1247.973 ; gain = 407.758
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-8943] 'axi_i2s_adi' is not compiled in library 'adi_common_v1_00_a' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ip/music_effect_axi_i2s_adi_0_2/synth/music_effect_axi_i2s_adi_0_2.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'music_effect_axi_i2s_adi_0_2' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ip/music_effect_axi_i2s_adi_0_2/synth/music_effect_axi_i2s_adi_0_2.vhd:101]
+	Parameter C_SLOT_WIDTH bound to: 24 - type: integer 
+	Parameter C_LRCLK_POL bound to: 0 - type: integer 
+	Parameter C_BCLK_POL bound to: 0 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_DMA_TYPE bound to: 0 - type: integer 
+	Parameter C_NUM_CH bound to: 1 - type: integer 
+	Parameter C_HAS_TX bound to: 1 - type: integer 
+	Parameter C_HAS_RX bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'axi_i2s_adi' declared at 'c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:18' bound to instance 'U0' of component 'axi_i2s_adi' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ip/music_effect_axi_i2s_adi_0_2/synth/music_effect_axi_i2s_adi_0_2.vhd:221]
+INFO: [Synth 8-638] synthesizing module 'axi_i2s_adi' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'axi_streaming_dma_tx_fifo' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_streaming_dma_tx_fifo.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'dma_fifo' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/dma_fifo.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'dma_fifo' (0#1) [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/dma_fifo.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'axi_streaming_dma_tx_fifo' (0#1) [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_streaming_dma_tx_fifo.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'axi_streaming_dma_rx_fifo' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_streaming_dma_rx_fifo.vhd:37]
+WARNING: [Synth 8-614] signal 'resetn' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_streaming_dma_rx_fifo.vhd:66]
+WARNING: [Synth 8-614] signal 'period_len' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_streaming_dma_rx_fifo.vhd:66]
+WARNING: [Synth 8-614] signal 'out_stb' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_streaming_dma_rx_fifo.vhd:66]
+WARNING: [Synth 8-614] signal 'M_AXIS_TREADY' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_streaming_dma_rx_fifo.vhd:66]
+WARNING: [Synth 8-614] signal 'period_count' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_streaming_dma_rx_fifo.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'axi_streaming_dma_rx_fifo' (0#1) [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_streaming_dma_rx_fifo.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'i2s_controller' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_controller.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'fifo_synchronizer' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/fifo_synchronizer.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'fifo_synchronizer' (0#1) [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/fifo_synchronizer.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'i2s_clkgen' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_clkgen.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'i2s_clkgen' (0#1) [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_clkgen.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'i2s_tx' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_tx.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'i2s_tx' (0#1) [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_tx.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'i2s_rx' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_rx.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'i2s_rx' (0#1) [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_rx.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'i2s_controller' (0#1) [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_controller.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'axi_ctrlif' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_ctrlif.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'axi_ctrlif' (0#1) [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_ctrlif.vhd:87]
+WARNING: [Synth 8-614] signal 'I2S_CONTROL_REG' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:393]
+WARNING: [Synth 8-614] signal 'I2S_CLK_CONTROL_REG' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:393]
+WARNING: [Synth 8-614] signal 'PERIOD_LEN_REG' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:393]
+WARNING: [Synth 8-614] signal 'rx_fifo_full' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:393]
+WARNING: [Synth 8-614] signal 'rx_fifo_empty' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:393]
+WARNING: [Synth 8-614] signal 'tx_fifo_full' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:393]
+WARNING: [Synth 8-614] signal 'tx_fifo_empty' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:393]
+WARNING: [Synth 8-614] signal 'rx_sample' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:393]
+WARNING: [Synth 8-614] signal 'cnt' is read in the process but is not in the sensitivity list [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:393]
+INFO: [Synth 8-256] done synthesizing module 'axi_i2s_adi' (0#1) [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:109]
+INFO: [Synth 8-256] done synthesizing module 'music_effect_axi_i2s_adi_0_2' (0#1) [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ip/music_effect_axi_i2s_adi_0_2/synth/music_effect_axi_i2s_adi_0_2.vhd:101]
+WARNING: [Synth 8-6014] Unused sequential element prev_bclk_div_rate_reg was removed.  [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_clkgen.vhd:87]
+WARNING: [Synth 8-6014] Unused sequential element prev_lrclk_div_rate_reg was removed.  [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_clkgen.vhd:115]
+WARNING: [Synth 8-6014] Unused sequential element seq_reg was removed.  [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/i2s_rx.vhd:110]
+WARNING: [Synth 8-3848] Net DMA_REQ_TX_DAREADY in module/entity axi_i2s_adi does not have driver. [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:69]
+WARNING: [Synth 8-3848] Net DMA_REQ_TX_DRVALID in module/entity axi_i2s_adi does not have driver. [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:70]
+WARNING: [Synth 8-3848] Net DMA_REQ_TX_DRTYPE in module/entity axi_i2s_adi does not have driver. [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:71]
+WARNING: [Synth 8-3848] Net DMA_REQ_TX_DRLAST in module/entity axi_i2s_adi does not have driver. [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:72]
+WARNING: [Synth 8-3848] Net DMA_REQ_RX_DAREADY in module/entity axi_i2s_adi does not have driver. [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:80]
+WARNING: [Synth 8-3848] Net DMA_REQ_RX_DRVALID in module/entity axi_i2s_adi does not have driver. [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:81]
+WARNING: [Synth 8-3848] Net DMA_REQ_RX_DRTYPE in module/entity axi_i2s_adi does not have driver. [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:82]
+WARNING: [Synth 8-3848] Net DMA_REQ_RX_DRLAST in module/entity axi_i2s_adi does not have driver. [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:83]
+WARNING: [Synth 8-3848] Net tx_in_ack in module/entity axi_i2s_adi does not have driver. [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:122]
+WARNING: [Synth 8-3848] Net rx_out_stb in module/entity axi_i2s_adi does not have driver. [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:132]
+WARNING: [Synth 8-3848] Net rx_sample in module/entity axi_i2s_adi does not have driver. [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/axi_i2s_adi.vhd:158]
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[31] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[30] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[29] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[28] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[27] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[26] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[25] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[24] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[23] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[22] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[21] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[20] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[19] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[18] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[17] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[16] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[15] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[14] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[13] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[12] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[11] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[10] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[9] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[8] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[7] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[6] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[1] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[0] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[3] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[2] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[1] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[0] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[31] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[30] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[29] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[28] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[27] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[26] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[25] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[24] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[23] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[22] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[21] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[20] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[19] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[18] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[17] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[16] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[15] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[14] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[13] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[12] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[11] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[10] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[9] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[8] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[7] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[6] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[1] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[0] in module axi_ctrlif is either unconnected or has no load
+WARNING: [Synth 8-7129] Port enable in module axi_streaming_dma_rx_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXIS_ACLK in module axi_streaming_dma_rx_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_TX_DAREADY in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_TX_DRVALID in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_TX_DRTYPE[1] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_TX_DRTYPE[0] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_TX_DRLAST in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_RX_DAREADY in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_RX_DRVALID in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_RX_DRTYPE[1] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_RX_DRTYPE[0] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_RX_DRLAST in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_ARESETN in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[7] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[6] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[5] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[4] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[3] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[2] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[1] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[0] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_TX_ACLK in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_TX_RSTN in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_TX_DAVALID in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_TX_DATYPE[1] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_TX_DATYPE[0] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_TX_DRREADY in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_RX_ACLK in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_RX_RSTN in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_RX_DAVALID in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_RX_DATYPE[1] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_RX_DATYPE[0] in module axi_i2s_adi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DMA_REQ_RX_DRREADY in module axi_i2s_adi is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1347.188 ; gain = 506.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1347.188 ; gain = 506.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1347.188 ; gain = 506.973
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1347.188 ; gain = 0.000
+WARNING: [Netlist 29-1115] Found multi-term driver net: S_AXI_AWREADY.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1395.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 1395.488 ; gain = 0.141
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'rd_state_reg' in module 'axi_ctrlif'
+INFO: [Synth 8-802] inferred FSM for state register 'wr_state_reg' in module 'axi_ctrlif'
+WARNING: [Synth 8-327] inferring latch for variable 'period_count_reg' [c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ipshared/922f/hdl/adi_common/axi_streaming_dma_rx_fifo.vhd:69]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                                0 |                               00
+                    resp |                                1 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rd_state_reg' using encoding 'sequential' in module 'axi_ctrlif'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              001 |                               00
+                     ack |                              010 |                               10
+                    resp |                              100 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wr_state_reg' using encoding 'one-hot' in module 'axi_ctrlif'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
+	   3 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 4     
+	   2 Input    2 Bit       Adders := 4     
+	   2 Input    1 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 5     
++---Registers : 
+	               32 Bit    Registers := 6     
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 29    
++---RAMs : 
+	              192 Bit	(8 X 24 bit)          RAMs := 2     
+	               20 Bit	(4 X 5 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+	   6 Input   32 Bit        Muxes := 2     
+	   5 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 5     
+	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 20    
+	   3 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port M_AXIS_TDATA[7] driven by constant 0
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port M_AXIS_TDATA[6] driven by constant 0
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port M_AXIS_TDATA[5] driven by constant 0
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port M_AXIS_TDATA[4] driven by constant 0
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port M_AXIS_TDATA[3] driven by constant 0
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port M_AXIS_TDATA[2] driven by constant 0
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port M_AXIS_TDATA[1] driven by constant 0
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port M_AXIS_TDATA[0] driven by constant 0
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port M_AXIS_TKEEP[3] driven by constant 1
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port M_AXIS_TKEEP[2] driven by constant 1
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port M_AXIS_TKEEP[1] driven by constant 1
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port M_AXIS_TKEEP[0] driven by constant 1
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port S_AXI_RRESP[1] driven by constant 0
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port S_AXI_RRESP[0] driven by constant 0
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port S_AXI_BRESP[1] driven by constant 0
+INFO: [Synth 8-3917] design music_effect_axi_i2s_adi_0_2 has port S_AXI_BRESP[0] driven by constant 0
+WARNING: [Synth 8-7129] Port S_AXIS_ARESETN in module music_effect_axi_i2s_adi_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[7] in module music_effect_axi_i2s_adi_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[6] in module music_effect_axi_i2s_adi_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[5] in module music_effect_axi_i2s_adi_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[4] in module music_effect_axi_i2s_adi_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[3] in module music_effect_axi_i2s_adi_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TDATA[2] in module music_effect_axi_i2s_adi_0_2 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++-----------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+|Module Name                  | RTL Object                                         | Inference | Size (Depth x Width) | Primitives  | 
++-----------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+|music_effect_axi_i2s_adi_0_2 | U0/ctrl/tx_sync/fifo_reg                           | Implied   | 4 x 5                | RAM32M x 1  | 
+|music_effect_axi_i2s_adi_0_2 | U0/ctrl/rx_gen.rx_sync/fifo_reg                    | Implied   | 4 x 5                | RAM32M x 1  | 
+|music_effect_axi_i2s_adi_0_2 | U0/streaming_dma_rx_gen.rx_fifo/fifo/data_fifo_reg | Implied   | 8 x 24               | RAM32M x 4  | 
+|music_effect_axi_i2s_adi_0_2 | U0/streaming_dma_tx_gen.tx_fifo/fifo/data_fifo_reg | Implied   | 8 x 24               | RAM32M x 4  | 
++-----------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++-----------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+|Module Name                  | RTL Object                                         | Inference | Size (Depth x Width) | Primitives  | 
++-----------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+|music_effect_axi_i2s_adi_0_2 | U0/ctrl/tx_sync/fifo_reg                           | Implied   | 4 x 5                | RAM32M x 1  | 
+|music_effect_axi_i2s_adi_0_2 | U0/ctrl/rx_gen.rx_sync/fifo_reg                    | Implied   | 4 x 5                | RAM32M x 1  | 
+|music_effect_axi_i2s_adi_0_2 | U0/streaming_dma_rx_gen.rx_fifo/fifo/data_fifo_reg | Implied   | 8 x 24               | RAM32M x 4  | 
+|music_effect_axi_i2s_adi_0_2 | U0/streaming_dma_tx_gen.tx_fifo/fifo/data_fifo_reg | Implied   | 8 x 24               | RAM32M x 4  | 
++-----------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:56 ; elapsed = 00:01:00 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:56 ; elapsed = 00:01:00 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:56 ; elapsed = 00:01:00 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:56 ; elapsed = 00:01:00 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:01:00 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:56 ; elapsed = 00:01:00 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     6|
+|2     |LUT1   |    23|
+|3     |LUT2   |    15|
+|4     |LUT3   |    48|
+|5     |LUT4   |    34|
+|6     |LUT5   |    47|
+|7     |LUT6   |    48|
+|8     |RAM32M |    10|
+|9     |FDRE   |   210|
+|10    |FDSE   |     7|
+|11    |LD     |    16|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:56 ; elapsed = 00:01:00 . Memory (MB): peak = 1395.488 ; gain = 555.273
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 72 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:00:56 . Memory (MB): peak = 1395.488 ; gain = 506.973
+Synthesis Optimization Complete : Time (s): cpu = 00:00:56 ; elapsed = 00:01:00 . Memory (MB): peak = 1395.488 ; gain = 555.273
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1395.488 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 32 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-1115] Found multi-term driver net: S_AXI_WREADY.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1395.488 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 26 instances were transformed.
+  LD => LDCE: 16 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 10 instances
+
+Synth Design complete, checksum: 8da852a6
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 133 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:05 ; elapsed = 00:01:10 . Memory (MB): peak = 1395.488 ; gain = 931.152
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_axi_i2s_adi_0_2_synth_1/music_effect_axi_i2s_adi_0_2.dcp' has been generated.
+ERROR: [Designutils 20-1595] In entity music_effect_axi_i2s_adi_0_2, connectivity of net S_AXI_WREADY cannot be represented in VHDL. VHDL lacks syntax to connect the following inout terminals to a differently-named net: 
+   inout S_AXI_AWREADY
+   inout S_AXI_WREADY
+
+Resolution: Check whether terminals really need inout direction and substitute input or output as needed. It may also be possible to rename the net to match the terminal.
+INFO: [Coretcl 2-1174] Renamed 12 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_axi_i2s_adi_0_2_synth_1/music_effect_axi_i2s_adi_0_2.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file music_effect_axi_i2s_adi_0_2_utilization_synth.rpt -pb music_effect_axi_i2s_adi_0_2_utilization_synth.pb
+ERROR: [Designutils 20-1595] In entity music_effect_axi_i2s_adi_0_2, connectivity of net S_AXI_WREADY cannot be represented in VHDL. VHDL lacks syntax to connect the following inout terminals to a differently-named net: 
+   inout S_AXI_AWREADY
+   inout S_AXI_WREADY
+
+Resolution: Check whether terminals really need inout direction and substitute input or output as needed. It may also be possible to rename the net to match the terminal.
+CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: ERROR: [Vivado 12-3193] Failed to represent netlist as VHDL.  See preceding messages.
+
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  7 21:29:48 2024...

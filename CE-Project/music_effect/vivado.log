@@ -1,0 +1,341 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Nov  7 15:52:43 2024
+# Process ID: 16308
+# Current directory: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30440 C:\Users\tabis\OneDrive\Desktop\CE-Project\music_effect\music_effect.xpr
+# Log file: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/vivado.log
+# Journal file: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect\vivado.jou
+# Running On: DESKTOP-O4PPJN1, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 17055 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.xpr
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/tabis/OneDrive/Desktop/CE-Project/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:14 . Memory (MB): peak = 1187.891 ; gain = 389.125
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  7 16:07:38 2024...
+usic_effect.srcs/sources_1/bd/music_effect/music_effect.bd}
+Reading block design file <C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/music_effect.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding component instance block -- analogdeviceinc.com:adi:axi_i2s_adi:1.0 - axi_i2s_adi_0
+Adding component instance block -- VL:user:clk_slow:1.0 - clk_slow_0
+Adding component instance block -- VL:user:MCLK_gen:1.0 - MCLK_gen_0
+Successfully read diagram <music_effect> from block design file <C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/music_effect.bd>
+open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1350.930 ; gain = 128.078
+startgroup
+create_bd_cell -type ip -vlnv VL:user:PS_to_PL:1.0 PS_to_PL_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (50 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (50 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/PS_to_PL_0/S00_AXI} ddr_seg {Auto} intc_ip {/axi_interconnect_0} master_apm {0}}  [get_bd_intf_pins PS_to_PL_0/S00_AXI]
+Slave segment '/PS_to_PL_0/S00_AXI/S00_AXI_reg' is being assigned into address space '/processing_system7_0/Data' at <0x43C1_0000 [ 64K ]>.
+startgroup
+create_bd_cell -type ip -vlnv VL:user:Distortion:1.0 Distortion_0
+endgroup
+set_property location {4 873 -446} [get_bd_cells Distortion_0]
+connect_bd_net [get_bd_pins PS_to_PL_0/AXI_to_PL] [get_bd_pins Distortion_0/x]
+set_property location {4 1195 -487} [get_bd_cells Distortion_0]
+set_property location {4.5 1450 -457} [get_bd_cells Distortion_0]
+startgroup
+create_bd_cell -type ip -vlnv VL:user:control:1.0 control_0
+endgroup
+set_property location {4 970 -656} [get_bd_cells control_0]
+set_property location {5.5 1786 -260} [get_bd_cells control_0]
+set_property location {6.5 2034 -457} [get_bd_cells Distortion_0]
+set_property location {4.5 1645 -235} [get_bd_cells control_0]
+connect_bd_net [get_bd_pins clk_slow_0/clk_12hz] [get_bd_pins control_0/clk_12hz]
+connect_bd_net [get_bd_pins clk_slow_0/clk1hz5] [get_bd_pins control_0/clk_1hz5]
+connect_bd_net [get_bd_pins clk_slow_0/clk_48hz] [get_bd_pins Distortion_0/clk_48]
+startgroup
+make_bd_pins_external  [get_bd_cells control_0]
+make_bd_intf_pins_external  [get_bd_cells control_0]
+INFO: [BD 5-409] No interface pins to be made external for /control_0
+endgroup
+delete_bd_objs [get_bd_nets Switches_0_1]
+delete_bd_objs [get_bd_ports Switches_0]
+startgroup
+make_bd_pins_external  [get_bd_pins control_0/Switches]
+endgroup
+delete_bd_objs [get_bd_nets control_0_options3]
+delete_bd_objs [get_bd_nets control_0_options2]
+delete_bd_objs [get_bd_nets control_0_options1]
+delete_bd_objs [get_bd_ports options3_0]
+delete_bd_objs [get_bd_ports options2_0]
+delete_bd_objs [get_bd_ports options1_0]
+delete_bd_objs [get_bd_nets control_0_options0] [get_bd_ports options0_0]
+delete_bd_objs [get_bd_nets control_0_en] [get_bd_ports en_0]
+delete_bd_objs [get_bd_nets control_0_Leds] [get_bd_ports Leds_0]
+connect_bd_net [get_bd_pins control_0/en] [get_bd_pins Distortion_0/en]
+connect_bd_net [get_bd_pins control_0/options0] [get_bd_pins Distortion_0/options]
+startgroup
+create_bd_cell -type ip -vlnv VL:user:PL_to_PS:1.0 PL_to_PS_0
+endgroup
+set_property location {7.5 2125 -277} [get_bd_cells PL_to_PS_0]
+set_property location {7.5 2245 -476} [get_bd_cells PL_to_PS_0]
+set_property location {7 2232 -451} [get_bd_cells PL_to_PS_0]
+connect_bd_net [get_bd_pins Distortion_0/y] [get_bd_pins PL_to_PS_0/AXI_from_PL]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (50 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (50 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/PL_to_PS_0/S00_AXI} ddr_seg {Auto} intc_ip {/axi_interconnect_0} master_apm {0}}  [get_bd_intf_pins PL_to_PS_0/S00_AXI]
+Slave segment '/PL_to_PS_0/S00_AXI/S00_AXI_reg' is being assigned into address space '/processing_system7_0/Data' at <0x43C2_0000 [ 64K ]>.
+save_bd_design
+Wrote  : <C:\Users\tabis\OneDrive\Desktop\CE-Project\music_effect\music_effect.srcs\sources_1\bd\music_effect\music_effect.bd> 
+Wrote  : <C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/ui/bd_a265480b.ui> 
+startgroup
+make_bd_pins_external  [get_bd_pins axi_i2s_adi_0/MUTEN_O]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_i2s_adi_0/SDATA_O]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_i2s_adi_0/LRCLK_O]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_i2s_adi_0/BCLK_O]
+endgroup
+validate_bd_design
+ERROR: [BD 41-758] The following clock pins are not connected to a valid clock source: 
+/axi_i2s_adi_0/S_AXIS_ACLK
+/axi_i2s_adi_0/M_AXIS_ACLK
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+validate_bd_design
+ERROR: [BD 41-758] The following clock pins are not connected to a valid clock source: 
+/axi_i2s_adi_0/S_AXIS_ACLK
+/axi_i2s_adi_0/M_AXIS_ACLK
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+connect_bd_net [get_bd_pins axi_i2s_adi_0/S_AXIS_ACLK] [get_bd_pins processing_system7_0/FCLK_CLK0]
+validate_bd_design
+ERROR: [BD 41-758] The following clock pins are not connected to a valid clock source: 
+/axi_i2s_adi_0/M_AXIS_ACLK
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+connect_bd_net [get_bd_pins axi_i2s_adi_0/M_AXIS_ACLK] [get_bd_pins processing_system7_0/FCLK_CLK0]
+validate_bd_design
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/axi_i2s_adi_0/S_AXIS_ARESETN
+/axi_i2s_adi_0/S_AXIS_TVALID
+
+ipx::edit_ip_in_project -upgrade true -name clk_slow_v1_0_project -directory C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.tmp/clk_slow_v1_0_project c:/Users/tabis/OneDrive/Desktop/CE-Project/ip_repo/VL_user_clk_slow_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/tabis/OneDrive/Desktop/CE-Project/ip_repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+update_compile_order -fileset sources_1
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/tabis/OneDrive/Desktop/CE-Project/ip_repo/VL_user_clk_slow_1.0/component.xml' ignored by IP packager.
+set_property dataflow_viewer_settings "min_width=16"   [current_fileset]
+set_property core_revision 16 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/tabis/OneDrive/Desktop/CE-Project/ip_repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/tabis/OneDrive/Desktop/CE-Project/ip_repo'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv VL:user:clk_slow:1.0 [get_ips  music_effect_clk_slow_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/music_effect.bd'
+INFO: [IP_Flow 19-3422] Upgraded music_effect_clk_slow_0_0 (clk_slow_v1_0 1.0) from revision 15 to revision 16
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'clk_190hz'
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'clk_380hz'
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'clk_95hz'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'music_effect_clk_slow_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'music_effect_clk_slow_0_0' has identified issues that may require user intervention. Please review the upgrade log 'c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Wrote  : <C:\Users\tabis\OneDrive\Desktop\CE-Project\music_effect\music_effect.srcs\sources_1\bd\music_effect\music_effect.bd> 
+Wrote  : <C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/ui/bd_a265480b.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips music_effect_clk_slow_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/music_effect.bd]
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/axi_i2s_adi_0/S_AXIS_ARESETN
+/axi_i2s_adi_0/S_AXIS_TVALID
+
+Wrote  : <C:\Users\tabis\OneDrive\Desktop\CE-Project\music_effect\music_effect.srcs\sources_1\bd\music_effect\music_effect.bd> 
+VHDL Output written to : c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/synth/music_effect.vhd
+VHDL Output written to : c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/sim/music_effect.vhd
+VHDL Output written to : c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/hdl/music_effect_wrapper.vhd
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_i2s_adi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_slow_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MCLK_gen_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PS_to_PL_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Distortion_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block control_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PL_to_PS_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/ip/music_effect_auto_pc_0/music_effect_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc .
+Exporting to file c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/hw_handoff/music_effect.hwh
+Generated Hardware Definition File c:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.gen/sources_1/bd/music_effect/synth/music_effect.hwdef
+generate_target: Time (s): cpu = 00:00:34 ; elapsed = 00:00:32 . Memory (MB): peak = 1993.637 ; gain = 191.902
+catch { config_ip_cache -export [get_ips -all music_effect_xbar_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_xbar_0
+catch { config_ip_cache -export [get_ips -all music_effect_rst_ps7_0_50M_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_rst_ps7_0_50M_0
+catch { config_ip_cache -export [get_ips -all music_effect_axi_i2s_adi_0_2] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_axi_i2s_adi_0_2
+catch { config_ip_cache -export [get_ips -all music_effect_clk_slow_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_clk_slow_0_0
+catch { config_ip_cache -export [get_ips -all music_effect_MCLK_gen_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_MCLK_gen_0_0
+catch { config_ip_cache -export [get_ips -all music_effect_PS_to_PL_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_PS_to_PL_0_0
+catch { config_ip_cache -export [get_ips -all music_effect_Distortion_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_Distortion_0_0
+catch { config_ip_cache -export [get_ips -all music_effect_control_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_control_0_0
+catch { config_ip_cache -export [get_ips -all music_effect_PL_to_PS_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_PL_to_PS_0_0
+catch { config_ip_cache -export [get_ips -all music_effect_auto_pc_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_auto_pc_0
+export_ip_user_files -of_objects [get_files C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/music_effect.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/music_effect.bd]
+launch_runs music_effect_processing_system7_0_0_synth_1 music_effect_xbar_0_synth_1 music_effect_rst_ps7_0_50M_0_synth_1 music_effect_axi_i2s_adi_0_2_synth_1 music_effect_clk_slow_0_0_synth_1 music_effect_MCLK_gen_0_0_synth_1 music_effect_PS_to_PL_0_0_synth_1 music_effect_Distortion_0_0_synth_1 music_effect_control_0_0_synth_1 music_effect_PL_to_PS_0_0_synth_1 music_effect_auto_pc_0_synth_1 -jobs 4
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_xbar_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_rst_ps7_0_50M_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_axi_i2s_adi_0_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_clk_slow_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_MCLK_gen_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_PS_to_PL_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_Distortion_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_control_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_PL_to_PS_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: music_effect_auto_pc_0
+[Thu Nov  7 21:28:14 2024] Launched music_effect_processing_system7_0_0_synth_1, music_effect_xbar_0_synth_1, music_effect_rst_ps7_0_50M_0_synth_1, music_effect_axi_i2s_adi_0_2_synth_1, music_effect_clk_slow_0_0_synth_1, music_effect_MCLK_gen_0_0_synth_1, music_effect_PS_to_PL_0_0_synth_1, music_effect_Distortion_0_0_synth_1, music_effect_control_0_0_synth_1, music_effect_PL_to_PS_0_0_synth_1, music_effect_auto_pc_0_synth_1...
+Run output will be captured here:
+music_effect_processing_system7_0_0_synth_1: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_processing_system7_0_0_synth_1/runme.log
+music_effect_xbar_0_synth_1: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_xbar_0_synth_1/runme.log
+music_effect_rst_ps7_0_50M_0_synth_1: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_rst_ps7_0_50M_0_synth_1/runme.log
+music_effect_axi_i2s_adi_0_2_synth_1: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_axi_i2s_adi_0_2_synth_1/runme.log
+music_effect_clk_slow_0_0_synth_1: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_clk_slow_0_0_synth_1/runme.log
+music_effect_MCLK_gen_0_0_synth_1: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_MCLK_gen_0_0_synth_1/runme.log
+music_effect_PS_to_PL_0_0_synth_1: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_PS_to_PL_0_0_synth_1/runme.log
+music_effect_Distortion_0_0_synth_1: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_Distortion_0_0_synth_1/runme.log
+music_effect_control_0_0_synth_1: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_control_0_0_synth_1/runme.log
+music_effect_PL_to_PS_0_0_synth_1: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_PL_to_PS_0_0_synth_1/runme.log
+music_effect_auto_pc_0_synth_1: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_auto_pc_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/music_effect.bd] -directory C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.ip_user_files -ipstatic_source_dir C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.cache/compile_simlib/modelsim} {questa=C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.cache/compile_simlib/questa} {riviera=C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.cache/compile_simlib/riviera} {activehdl=C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+CRITICAL WARNING: [filemgmt 20-730] Could not find a top module in the fileset sources_1.
+Resolution: With the gui up, review the source files in the Sources window. Use Add Sources to add any needed sources. If the files are disabled, enable them. You can also select the file and choose Set Used In from the pop-up menu. Review if they are being used at the proper points of the flow.
+ERROR: [Common 17-70] Application Exception: Top module not set for fileset 'sources_1'. Please ensure that a valid value is provided for 'top'. The value for 'top' can be set/changed using the 'Top Module Name' field under 'Project Settings', or using the 'set_property top' Tcl command (e.g. set_property top <name> [current_fileset]).
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  7 21:34:18 2024...

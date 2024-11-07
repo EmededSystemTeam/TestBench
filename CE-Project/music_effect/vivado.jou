@@ -1,0 +1,127 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Nov  7 15:52:43 2024
+# Process ID: 16308
+# Current directory: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30440 C:\Users\tabis\OneDrive\Desktop\CE-Project\music_effect\music_effect.xpr
+# Log file: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/vivado.log
+# Journal file: C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect\vivado.jou
+# Running On: DESKTOP-O4PPJN1, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 17055 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/music_effect.bd}
+startgroup
+create_bd_cell -type ip -vlnv VL:user:PS_to_PL:1.0 PS_to_PL_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (50 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (50 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/PS_to_PL_0/S00_AXI} ddr_seg {Auto} intc_ip {/axi_interconnect_0} master_apm {0}}  [get_bd_intf_pins PS_to_PL_0/S00_AXI]
+startgroup
+create_bd_cell -type ip -vlnv VL:user:Distortion:1.0 Distortion_0
+endgroup
+set_property location {4 873 -446} [get_bd_cells Distortion_0]
+connect_bd_net [get_bd_pins PS_to_PL_0/AXI_to_PL] [get_bd_pins Distortion_0/x]
+set_property location {4 1195 -487} [get_bd_cells Distortion_0]
+set_property location {4.5 1450 -457} [get_bd_cells Distortion_0]
+startgroup
+create_bd_cell -type ip -vlnv VL:user:control:1.0 control_0
+endgroup
+set_property location {4 970 -656} [get_bd_cells control_0]
+set_property location {5.5 1786 -260} [get_bd_cells control_0]
+set_property location {6.5 2034 -457} [get_bd_cells Distortion_0]
+set_property location {4.5 1645 -235} [get_bd_cells control_0]
+connect_bd_net [get_bd_pins clk_slow_0/clk_12hz] [get_bd_pins control_0/clk_12hz]
+connect_bd_net [get_bd_pins clk_slow_0/clk1hz5] [get_bd_pins control_0/clk_1hz5]
+connect_bd_net [get_bd_pins clk_slow_0/clk_48hz] [get_bd_pins Distortion_0/clk_48]
+startgroup
+make_bd_pins_external  [get_bd_cells control_0]
+make_bd_intf_pins_external  [get_bd_cells control_0]
+endgroup
+delete_bd_objs [get_bd_nets Switches_0_1]
+delete_bd_objs [get_bd_ports Switches_0]
+startgroup
+make_bd_pins_external  [get_bd_pins control_0/Switches]
+endgroup
+delete_bd_objs [get_bd_nets control_0_options3]
+delete_bd_objs [get_bd_nets control_0_options2]
+delete_bd_objs [get_bd_nets control_0_options1]
+delete_bd_objs [get_bd_ports options3_0]
+delete_bd_objs [get_bd_ports options2_0]
+delete_bd_objs [get_bd_ports options1_0]
+delete_bd_objs [get_bd_nets control_0_options0] [get_bd_ports options0_0]
+delete_bd_objs [get_bd_nets control_0_en] [get_bd_ports en_0]
+delete_bd_objs [get_bd_nets control_0_Leds] [get_bd_ports Leds_0]
+connect_bd_net [get_bd_pins control_0/en] [get_bd_pins Distortion_0/en]
+connect_bd_net [get_bd_pins control_0/options0] [get_bd_pins Distortion_0/options]
+startgroup
+create_bd_cell -type ip -vlnv VL:user:PL_to_PS:1.0 PL_to_PS_0
+endgroup
+set_property location {7.5 2125 -277} [get_bd_cells PL_to_PS_0]
+set_property location {7.5 2245 -476} [get_bd_cells PL_to_PS_0]
+set_property location {7 2232 -451} [get_bd_cells PL_to_PS_0]
+connect_bd_net [get_bd_pins Distortion_0/y] [get_bd_pins PL_to_PS_0/AXI_from_PL]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (50 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (50 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/PL_to_PS_0/S00_AXI} ddr_seg {Auto} intc_ip {/axi_interconnect_0} master_apm {0}}  [get_bd_intf_pins PL_to_PS_0/S00_AXI]
+save_bd_design
+startgroup
+make_bd_pins_external  [get_bd_pins axi_i2s_adi_0/MUTEN_O]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_i2s_adi_0/SDATA_O]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_i2s_adi_0/LRCLK_O]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_i2s_adi_0/BCLK_O]
+endgroup
+validate_bd_design
+validate_bd_design
+connect_bd_net [get_bd_pins axi_i2s_adi_0/S_AXIS_ACLK] [get_bd_pins processing_system7_0/FCLK_CLK0]
+validate_bd_design
+connect_bd_net [get_bd_pins axi_i2s_adi_0/M_AXIS_ACLK] [get_bd_pins processing_system7_0/FCLK_CLK0]
+validate_bd_design
+ipx::edit_ip_in_project -upgrade true -name clk_slow_v1_0_project -directory C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.tmp/clk_slow_v1_0_project c:/Users/tabis/OneDrive/Desktop/CE-Project/ip_repo/VL_user_clk_slow_1.0/component.xml
+update_compile_order -fileset sources_1
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property dataflow_viewer_settings "min_width=16"   [current_fileset]
+set_property core_revision 16 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/tabis/OneDrive/Desktop/CE-Project/ip_repo
+report_ip_status -name ip_status 
+upgrade_ip -vlnv VL:user:clk_slow:1.0 [get_ips  music_effect_clk_slow_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips music_effect_clk_slow_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/music_effect.bd]
+catch { config_ip_cache -export [get_ips -all music_effect_xbar_0] }
+catch { config_ip_cache -export [get_ips -all music_effect_rst_ps7_0_50M_0] }
+catch { config_ip_cache -export [get_ips -all music_effect_axi_i2s_adi_0_2] }
+catch { config_ip_cache -export [get_ips -all music_effect_clk_slow_0_0] }
+catch { config_ip_cache -export [get_ips -all music_effect_MCLK_gen_0_0] }
+catch { config_ip_cache -export [get_ips -all music_effect_PS_to_PL_0_0] }
+catch { config_ip_cache -export [get_ips -all music_effect_Distortion_0_0] }
+catch { config_ip_cache -export [get_ips -all music_effect_control_0_0] }
+catch { config_ip_cache -export [get_ips -all music_effect_PL_to_PS_0_0] }
+catch { config_ip_cache -export [get_ips -all music_effect_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/music_effect.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/music_effect.bd]
+launch_runs music_effect_processing_system7_0_0_synth_1 music_effect_xbar_0_synth_1 music_effect_rst_ps7_0_50M_0_synth_1 music_effect_axi_i2s_adi_0_2_synth_1 music_effect_clk_slow_0_0_synth_1 music_effect_MCLK_gen_0_0_synth_1 music_effect_PS_to_PL_0_0_synth_1 music_effect_Distortion_0_0_synth_1 music_effect_control_0_0_synth_1 music_effect_PL_to_PS_0_0_synth_1 music_effect_auto_pc_0_synth_1 -jobs 4
+wait_on_run music_effect_processing_system7_0_0_synth_1
+wait_on_run music_effect_xbar_0_synth_1
+wait_on_run music_effect_rst_ps7_0_50M_0_synth_1
+wait_on_run music_effect_axi_i2s_adi_0_2_synth_1
+wait_on_run music_effect_clk_slow_0_0_synth_1
+wait_on_run music_effect_MCLK_gen_0_0_synth_1
+wait_on_run music_effect_PS_to_PL_0_0_synth_1
+wait_on_run music_effect_Distortion_0_0_synth_1
+wait_on_run music_effect_control_0_0_synth_1
+wait_on_run music_effect_PL_to_PS_0_0_synth_1
+wait_on_run music_effect_auto_pc_0_synth_1
+export_simulation -of_objects [get_files C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.srcs/sources_1/bd/music_effect/music_effect.bd] -directory C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.ip_user_files -ipstatic_source_dir C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.cache/compile_simlib/modelsim} {questa=C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.cache/compile_simlib/questa} {riviera=C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.cache/compile_simlib/riviera} {activehdl=C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs impl_1 -to_step write_bitstream -jobs 4

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="music_effect_processing_system7_0_0_synth_1" LaunchDir="C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="music_effect_xbar_0_synth_1" LaunchDir="C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="music_effect_rst_ps7_0_50M_0_synth_1" LaunchDir="C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_rst_ps7_0_50M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="music_effect_axi_i2s_adi_0_2_synth_1" LaunchDir="C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_axi_i2s_adi_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="music_effect_clk_slow_0_0_synth_1" LaunchDir="C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_clk_slow_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="music_effect_MCLK_gen_0_0_synth_1" LaunchDir="C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_MCLK_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="music_effect_PS_to_PL_0_0_synth_1" LaunchDir="C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_PS_to_PL_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="music_effect_Distortion_0_0_synth_1" LaunchDir="C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_Distortion_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="music_effect_control_0_0_synth_1" LaunchDir="C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_control_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="music_effect_PL_to_PS_0_0_synth_1" LaunchDir="C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_PL_to_PS_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="music_effect_auto_pc_0_synth_1" LaunchDir="C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.runs/music_effect_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

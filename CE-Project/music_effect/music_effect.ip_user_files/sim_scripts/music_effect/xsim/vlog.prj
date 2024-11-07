@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2022.2/data/xilinx_vip/include" --include "../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/ec67/hdl" --include "../../../../music_effect.gen/sources_1/bd/music_effect/ipshared/ee60/hdl" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ip/music_effect_processing_system7_0_0/sim/music_effect_processing_system7_0_0.v" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ip/music_effect_xbar_0/sim/music_effect_xbar_0.v" \
+"../../../../music_effect.gen/sources_1/bd/music_effect/ip/music_effect_auto_pc_0/sim/music_effect_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
