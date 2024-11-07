@@ -1,0 +1,55 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "effects_loop_delay_0_0",
+    "cell_name": "delay_0",
+    "component_reference": "VL:user:delay:1.0",
+    "ip_revision": "110",
+    "gen_directory": ".",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "effects_loop_delay_0_0", "resolve_type": "user", "usage": "all" } ],
+        "T": [ { "value": "20000", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "B": [ { "value": "15", "resolve_type": "user", "format": "long", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "T": [ { "value": "20000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "B": [ { "value": "15", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "em.avnet.com:zed:part0:1.3" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "PACKAGE": [ { "value": "clg484" } ],
+        "PREFHDL": [ { "value": "VHDL" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "C" } ],
+        "USE_RDI_CUSTOMIZATION": [ { "value": "TRUE" } ],
+        "USE_RDI_GENERATION": [ { "value": "TRUE" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "110" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "." } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2016.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "x": [ { "direction": "in", "size_left": "31", "size_right": "0" } ],
+        "y": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "clk_48": [ { "direction": "in" } ],
+        "options": [ { "direction": "in", "size_left": "0", "size_right": "3" } ],
+        "en": [ { "direction": "in", "size_left": "0", "size_right": "3" } ]
+      }
+    }
+  }
+}
