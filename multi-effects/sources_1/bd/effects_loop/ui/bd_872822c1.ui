@@ -1,0 +1,78 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.06507",
+   "Default View_TopLeft":"-95,311",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 10 -x 3190 -y 440 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 10 -x 3190 -y 500 -defaultsOSRD
+preplace port IIC_0 -pg 1 -lvl 10 -x 3190 -y 470 -defaultsOSRD
+preplace port port-id_SDATA_I -pg 1 -lvl 0 -x -20 -y 690 -defaultsOSRD
+preplace port port-id_LRCLK -pg 1 -lvl 10 -x 3190 -y 80 -defaultsOSRD
+preplace port port-id_BCLK -pg 1 -lvl 10 -x 3190 -y 110 -defaultsOSRD
+preplace port port-id_MCLK -pg 1 -lvl 10 -x 3190 -y -40 -defaultsOSRD
+preplace port port-id_SDATA_O -pg 1 -lvl 10 -x 3190 -y 20 -defaultsOSRD
+preplace portBus addrbit0 -pg 1 -lvl 10 -x 3190 -y -10 -defaultsOSRD
+preplace portBus addrbit1 -pg 1 -lvl 10 -x 3190 -y 50 -defaultsOSRD
+preplace portBus Switches -pg 1 -lvl 0 -x -20 -y 350 -defaultsOSRD
+preplace portBus Leds -pg 1 -lvl 10 -x 3190 -y 140 -defaultsOSRD
+preplace portBus butn_in -pg 1 -lvl 0 -x -20 -y 320 -defaultsOSRD
+preplace inst zed_audio_ctrl_0 -pg 1 -lvl 2 -x 700 -y 580 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 1 -x 240 -y 960 -defaultsOSRD
+preplace inst rst_processing_system7_0_100M -pg 1 -lvl 2 -x 700 -y 870 -defaultsOSRD
+preplace inst PL_to_PS_0 -pg 1 -lvl 9 -x 3020 -y 300 -defaultsOSRD
+preplace inst PS_to_PL_0 -pg 1 -lvl 2 -x 700 -y 340 -defaultsOSRD
+preplace inst MCLK_gen_0 -pg 1 -lvl 2 -x 700 -y 710 -defaultsOSRD
+preplace inst clk_slow_0 -pg 1 -lvl 3 -x 1070 -y 500 -defaultsOSRD
+preplace inst control_0 -pg 1 -lvl 4 -x 1430 -y 480 -defaultsOSRD
+preplace inst trem_0 -pg 1 -lvl 7 -x 2410 -y 280 -defaultsOSRD
+preplace inst delay_0 -pg 1 -lvl 8 -x 2760 -y 290 -defaultsOSRD
+preplace inst octaver_0 -pg 1 -lvl 6 -x 2130 -y 270 -defaultsOSRD
+preplace inst Distortion_0 -pg 1 -lvl 5 -x 1790 -y 290 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 240 -y 510 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -x 700 -y 100 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 9 10 680 510 470 920 310 NJ 310 1650J 450 NJ 450 N 450 N 450 2860
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 440 610n
+preplace netloc rst_processing_system7_0_100M_peripheral_aresetn 1 0 9 20 690 470 480 980 320 NJ 320 1620 440 NJ 440 N 440 2520 380 2880
+preplace netloc rst_processing_system7_0_100M_interconnect_aresetn 1 0 3 40 700 450J 770 920
+preplace netloc SDATA_I_1 1 0 2 0J 670 520J
+preplace netloc zed_audio_ctrl_0_LRCLK 1 2 8 950J 280 NJ 280 1660J 190 1910 180 2310J 130 2530J 80 NJ 80 NJ
+preplace netloc zed_audio_ctrl_0_BCLK 1 2 8 900 110 NJ 110 NJ 110 NJ 110 NJ 110 NJ 110 NJ 110 NJ
+preplace netloc xlconstant_0_dout 1 2 8 870J 50 NJ 50 NJ 50 NJ 50 NJ 50 NJ 50 NJ 50 3120J
+preplace netloc Clk_div_0_clk_out 1 2 8 880J -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ
+preplace netloc zed_audio_ctrl_0_SDATA_O 1 2 8 890J 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ
+preplace netloc Switches_1 1 0 4 0J 340 490J 460 970J 380 1210J
+preplace netloc control_0_Leds 1 4 6 1550 140 NJ 140 2230J 120 NJ 120 NJ 120 3120J
+preplace netloc control_0_En 1 4 4 1630 400 1900 370 2310 410 2510
+preplace netloc clk_slow_0_clk_380hz 1 3 4 1170 330 1660J 390 N 390 2280
+preplace netloc delay_0_y 1 8 1 NJ 290
+preplace netloc control_0_options3 1 4 4 1600J 150 NJ 150 2240J 140 2520J
+preplace netloc clk_slow_0_clk_48hz 1 3 4 1220 360 1640J 380 NJ 380 2290
+preplace netloc clk_slow_0_clk_95hz 1 3 4 1180 160 NJ 160 NJ 160 2260
+preplace netloc clk_slow_0_clk_190hz 1 3 4 1160 130 NJ 130 NJ 130 2280
+preplace netloc control_0_options0 1 4 1 1560 300n
+preplace netloc PS_to_PL_0_AXI_to_PL 1 2 3 870J 260 NJ 260 NJ
+preplace netloc clk_slow_0_clk_12hz 1 3 1 1190 450n
+preplace netloc clk_slow_0_clk1hz5 1 3 1 1230 490n
+preplace netloc control_0_options1 1 4 2 1610J 200 1890
+preplace netloc control_0_options2 1 4 3 1660 410 NJ 410 2300J
+preplace netloc Distortion_0_y 1 5 1 1900 240n
+preplace netloc octaver_0_y 1 6 1 2270 210n
+preplace netloc trem_0_y 1 7 1 2510 260n
+preplace netloc butn_in_1 1 0 4 NJ 320 450J 440 960J 390 1200J
+preplace netloc processing_system7_0_M_AXI_GP0 1 0 2 30J 350 440J
+preplace netloc processing_system7_0_axi_periph_M00_AXI 1 1 1 530 550n
+preplace netloc processing_system7_0_axi_periph_M02_AXI 1 1 8 460J 170 NJ 170 NJ 170 NJ 170 NJ 170 2250 150 N 150 2860
+preplace netloc processing_system7_0_axi_periph_M03_AXI 1 1 1 480 320n
+preplace netloc processing_system7_0_DDR 1 1 9 500 420 910J 350 NJ 350 1590J 420 NJ 420 NJ 420 NJ 420 2880J 440 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 9 N 430 940J 370 NJ 370 1570J 430 NJ 430 NJ 430 NJ 430 2870J 450 3120J
+preplace netloc processing_system7_0_IIC_0 1 1 9 N 450 930J 340 NJ 340 1580J 470 NJ 470 NJ 470 NJ 470 NJ 470 NJ
+levelinfo -pg 1 -20 240 700 1070 1430 1790 2130 2410 2760 3020 3190
+pagesize -pg 1 -db -bbox -sgen -160 -260 3320 1260
+"
+}
+{
+   "da_axi4_cnt":"14",
+   "da_ps7_cnt":"1"
+}
