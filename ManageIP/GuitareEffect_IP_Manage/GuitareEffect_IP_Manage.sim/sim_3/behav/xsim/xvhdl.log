@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louis/Documents/5AEsisar/CE515_soc/ProjetGuitareEffect/TestBench/ManageIP/GuitareEffect_IP_Manage/GuitareEffect_IP_Manage.srcs/sources_1/new/control_v2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_v2'
