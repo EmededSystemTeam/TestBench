@@ -34,7 +34,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity control_v2 is
     Port ( Switches : in STD_LOGIC_VECTOR (0 to 3); --left to right
-               clk_12hz : in std_logic;
+               clk_100hz : in std_logic;
                butn_in : in STD_LOGIC_VECTOR (0 to 3); -- left to right- L,C,R
                Leds : out STD_LOGIC_VECTOR (0 to 3) := "0000"; --left to right*
                en : out STD_LOGIC_VECTOR (0 to 3):= "0000";
@@ -59,7 +59,7 @@ architecture State_Machine of control_v2 is
     
     begin
     
-        process_clocked : process(clk_12hz, butn_in(3),butn_in(1),butn_in(0) )
+        process_clocked : process(clk_100hz, butn_in(3),butn_in(1),butn_in(0) )
             begin
                 if(butn_in(3) = '1') then
                     present_state <= state_0;
@@ -74,7 +74,7 @@ architecture State_Machine of control_v2 is
                  else
                  
                  end if;                         
-                if (clk_12hz'event and clk_12hz = '1') then
+                if (clk_100hz'event and clk_100hz = '1') then
                     present_state <= next_state ;
                  end if;
         end process process_clocked;

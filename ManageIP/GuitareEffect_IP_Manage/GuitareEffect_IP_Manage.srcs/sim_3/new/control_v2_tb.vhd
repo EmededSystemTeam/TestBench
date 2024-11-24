@@ -40,7 +40,7 @@ architecture Behavioral of control_v2_tb is
 
  component control_v2 
     port ( Switches: in STD_LOGIC_VECTOR (0 to 3); --left to right
-               clk_12hz : in std_logic;
+               clk_100hz : in std_logic;
                butn_in : in STD_LOGIC_VECTOR (0 to 3); -- left to right- L,C,R
                Leds : out STD_LOGIC_VECTOR (0 to 3) := "1000"; --left to right*
                en : out STD_LOGIC_VECTOR (0 to 3):= "0000";
@@ -55,7 +55,7 @@ architecture Behavioral of control_v2_tb is
    signal Switches :  STD_LOGIC_VECTOR (0 to 3):= "0000"; --left to right
    signal butn_in : STD_LOGIC_VECTOR (0 to 3):= "0000"; -- left to right- L,C,R
    signal Leds :  STD_LOGIC_VECTOR (0 to 3); --left to right
-   signal clk_12hz : std_logic := '1';
+   signal clk_100hz : std_logic := '1';
    signal en : STD_LOGIC_VECTOR (0 to 3);
    signal options0 : STD_LOGIC_VECTOR (0 to 3);
    signal options1 :  STD_LOGIC_VECTOR (0 to 3);
@@ -67,7 +67,7 @@ architecture Behavioral of control_v2_tb is
   begin
 
       control_1 :control_v2 port map (Switches => Switches,
-                                      clk_12hz  => clk_12hz,
+                                      clk_100hz  => clk_100hz,
                                       butn_in   => butn_in,
                                       Leds    => Leds,
                                       en    => en,
@@ -79,9 +79,9 @@ architecture Behavioral of control_v2_tb is
 
       clk_process: process
      begin
-        clk_12hz <= '1';
+        clk_100hz <= '1';
         wait for clock_period/2;
-        clk_12hz <= '0';
+        clk_100hz <= '0';
         wait for clock_period/2;
      end process;
      
