@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Nov 24 14:42:30 2024
+# Process ID: 408501
+# Current directory: /home/louis/Documents/5AEsisar/CE515_soc/ProjetGuitareEffect/TestBench/ManageIP/GuitareEffect_IP_Manage/GuitareEffect_IP_Manage.runs/synth_1
+# Command line: vivado -log User_IHM_control_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source User_IHM_control_wrapper.tcl
+# Log file: /home/louis/Documents/5AEsisar/CE515_soc/ProjetGuitareEffect/TestBench/ManageIP/GuitareEffect_IP_Manage/GuitareEffect_IP_Manage.runs/synth_1/User_IHM_control_wrapper.vds
+# Journal file: /home/louis/Documents/5AEsisar/CE515_soc/ProjetGuitareEffect/TestBench/ManageIP/GuitareEffect_IP_Manage/GuitareEffect_IP_Manage.runs/synth_1/vivado.jou
+# Running On        :louis-HP-ProBook-450-G3
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 24.04.1 LTS
+# Processor Detail  :Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+# CPU Frequency     :2795.077 MHz
+# CPU Physical cores:2
+# CPU Logical cores :4
+# Host memory       :8216 MB
+# Swap memory       :4294 MB
+# Total Virtual     :12511 MB
+# Available Virtual :8741 MB
+#-----------------------------------------------------------
+source User_IHM_control_wrapper.tcl -notrace

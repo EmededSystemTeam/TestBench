@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Product Version: Vivado v2022.2 (64-bit)              -->
-<!--                                                         -->
-<!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   -->
+<!-- Product Version: Vivado v2024.1 (64-bit)                              -->
+<!--                                                                         -->
+<!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
+<!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="61" Path="C:/Users/tabis/OneDrive/Desktop/CE-Project/music_effect/music_effect.xpr">
+<Project Product="Vivado" Version="7" Minor="67" Path="/home/louis/Documents/5AEsisar/CE515_soc/ProjetGuitareEffect/TestBench/CE-Project/music_effect/music_effect.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="e3f815864332400ea9f79a4f0450f1c3"/>
@@ -28,14 +29,14 @@
     <Option Name="SimulatorGccInstallDirVCS" Val=""/>
     <Option Name="SimulatorGccInstallDirRiviera" Val=""/>
     <Option Name="SimulatorGccInstallDirActiveHdl" Val=""/>
-    <Option Name="SimulatorVersionXsim" Val="2022.2"/>
-    <Option Name="SimulatorVersionModelSim" Val="2022.2"/>
-    <Option Name="SimulatorVersionQuesta" Val="2022.2"/>
-    <Option Name="SimulatorVersionXcelium" Val="21.09.009"/>
-    <Option Name="SimulatorVersionVCS" Val="S-2021.09"/>
-    <Option Name="SimulatorVersionRiviera" Val="2022.04"/>
+    <Option Name="SimulatorVersionXsim" Val="2024.1"/>
+    <Option Name="SimulatorVersionModelSim" Val="2023.2"/>
+    <Option Name="SimulatorVersionQuesta" Val="2023.2"/>
+    <Option Name="SimulatorVersionXcelium" Val="23.03.002"/>
+    <Option Name="SimulatorVersionVCS" Val="U-2023.03-1"/>
+    <Option Name="SimulatorVersionRiviera" Val="2023.04"/>
     <Option Name="SimulatorVersionActiveHdl" Val="13.0"/>
-    <Option Name="SimulatorGccVersionXsim" Val="6.2.0"/>
+    <Option Name="SimulatorGccVersionXsim" Val="9.3.0"/>
     <Option Name="SimulatorGccVersionModelSim" Val="7.4.0"/>
     <Option Name="SimulatorGccVersionQuesta" Val="7.4.0"/>
     <Option Name="SimulatorGccVersionXcelium" Val="9.3.0"/>
@@ -43,7 +44,7 @@
     <Option Name="SimulatorGccVersionRiviera" Val="9.3.0"/>
     <Option Name="SimulatorGccVersionActiveHdl" Val="9.3.0"/>
     <Option Name="TargetLanguage" Val="VHDL"/>
-    <Option Name="BoardPart" Val="digilentinc.com:zybo-z7-10:part0:1.2"/>
+    <Option Name="BoardPart" Val=""/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
@@ -88,7 +89,7 @@
     <Option Name="ClassicSocBoot" Val="FALSE"/>
     <Option Name="LocalIPRepoLeafDirName" Val="ip_repo"/>
   </Configuration>
-  <FileSets Version="1" Minor="31">
+  <FileSets Version="1" Minor="32">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/bd/music_effect/music_effect.bd">
@@ -97,44 +98,31 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_clk_slow_0_0/music_effect_clk_slow_0_0.xci">
-          <Proxy FileSetName="music_effect_clk_slow_0_0"/>
+        <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_Distortion_0_0/music_effect_Distortion_0_0.xci">
+          <Proxy FileSetName="music_effect_Distortion_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_MCLK_gen_0_0/music_effect_MCLK_gen_0_0.xci">
           <Proxy FileSetName="music_effect_MCLK_gen_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_axi_i2s_adi_0_2/music_effect_axi_i2s_adi_0_2.xci">
-          <Proxy FileSetName="music_effect_axi_i2s_adi_0_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_rst_ps7_0_50M_0/music_effect_rst_ps7_0_50M_0.xci">
-          <Proxy FileSetName="music_effect_rst_ps7_0_50M_0"/>
+        <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_PL_to_PS_0_0/music_effect_PL_to_PS_0_0.xci">
+          <Proxy FileSetName="music_effect_PL_to_PS_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_PS_to_PL_0_0/music_effect_PS_to_PL_0_0.xci">
           <Proxy FileSetName="music_effect_PS_to_PL_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_PL_to_PS_0_0/music_effect_PL_to_PS_0_0.xci">
-          <Proxy FileSetName="music_effect_PL_to_PS_0_0"/>
+        <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_axi_i2s_adi_0_2/music_effect_axi_i2s_adi_0_2.xci">
+          <Proxy FileSetName="music_effect_axi_i2s_adi_0_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_Distortion_0_0/music_effect_Distortion_0_0.xci">
-          <Proxy FileSetName="music_effect_Distortion_0_0"/>
+        <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_clk_slow_0_0/music_effect_clk_slow_0_0.xci">
+          <Proxy FileSetName="music_effect_clk_slow_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_control_0_0/music_effect_control_0_0.xci">
           <Proxy FileSetName="music_effect_control_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_auto_pc_0/music_effect_auto_pc_0.xci">
-          <Proxy FileSetName="music_effect_auto_pc_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_xbar_0/music_effect_xbar_0.xci">
-          <Proxy FileSetName="music_effect_xbar_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="music_effect.bd" FileRelPathName="ip/music_effect_processing_system7_0_0/music_effect_processing_system7_0_0.xci">
-          <Proxy FileSetName="music_effect_processing_system7_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
-        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -164,80 +152,45 @@
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
-    <FileSet Name="music_effect_processing_system7_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/music_effect_processing_system7_0_0" RelGenDir="$PGENDIR/music_effect_processing_system7_0_0">
-      <Config>
-        <Option Name="TopModule" Val="music_effect_processing_system7_0_0"/>
-        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="music_effect_xbar_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/music_effect_xbar_0" RelGenDir="$PGENDIR/music_effect_xbar_0">
-      <Config>
-        <Option Name="TopModule" Val="music_effect_xbar_0"/>
-        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="music_effect_rst_ps7_0_50M_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/music_effect_rst_ps7_0_50M_0" RelGenDir="$PGENDIR/music_effect_rst_ps7_0_50M_0">
-      <Config>
-        <Option Name="TopModule" Val="music_effect_rst_ps7_0_50M_0"/>
-        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
     <FileSet Name="music_effect_axi_i2s_adi_0_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/music_effect_axi_i2s_adi_0_2" RelGenDir="$PGENDIR/music_effect_axi_i2s_adi_0_2">
       <Config>
         <Option Name="TopModule" Val="music_effect_axi_i2s_adi_0_2"/>
-        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
     <FileSet Name="music_effect_clk_slow_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/music_effect_clk_slow_0_0" RelGenDir="$PGENDIR/music_effect_clk_slow_0_0">
       <Config>
         <Option Name="TopModule" Val="music_effect_clk_slow_0_0"/>
-        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
     <FileSet Name="music_effect_MCLK_gen_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/music_effect_MCLK_gen_0_0" RelGenDir="$PGENDIR/music_effect_MCLK_gen_0_0">
       <Config>
         <Option Name="TopModule" Val="music_effect_MCLK_gen_0_0"/>
-        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
     <FileSet Name="music_effect_PS_to_PL_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/music_effect_PS_to_PL_0_0" RelGenDir="$PGENDIR/music_effect_PS_to_PL_0_0">
       <Config>
         <Option Name="TopModule" Val="music_effect_PS_to_PL_0_0"/>
-        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
     <FileSet Name="music_effect_Distortion_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/music_effect_Distortion_0_0" RelGenDir="$PGENDIR/music_effect_Distortion_0_0">
       <Config>
         <Option Name="TopModule" Val="music_effect_Distortion_0_0"/>
-        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
     <FileSet Name="music_effect_control_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/music_effect_control_0_0" RelGenDir="$PGENDIR/music_effect_control_0_0">
       <Config>
         <Option Name="TopModule" Val="music_effect_control_0_0"/>
-        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
     <FileSet Name="music_effect_PL_to_PS_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/music_effect_PL_to_PS_0_0" RelGenDir="$PGENDIR/music_effect_PL_to_PS_0_0">
       <Config>
         <Option Name="TopModule" Val="music_effect_PL_to_PS_0_0"/>
-        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="music_effect_auto_pc_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/music_effect_auto_pc_0" RelGenDir="$PGENDIR/music_effect_auto_pc_0">
-      <Config>
-        <Option Name="TopModule" Val="music_effect_auto_pc_0"/>
-        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -253,15 +206,18 @@
     <Simulator Name="Questa">
       <Option Name="Description" Val="Questa Advanced Simulator"/>
     </Simulator>
+    <Simulator Name="Xcelium">
+      <Option Name="Description" Val="Xcelium Parallel Simulator"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
     <Simulator Name="Riviera">
       <Option Name="Description" Val="Riviera-PRO Simulator"/>
     </Simulator>
-    <Simulator Name="ActiveHDL">
-      <Option Name="Description" Val="Active-HDL Simulator"/>
-    </Simulator>
   </Simulators>
-  <Runs Version="1" Minor="19">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1">
+  <Runs Version="1" Minor="22">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
@@ -270,11 +226,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_processing_system7_0_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_processing_system7_0_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_processing_system7_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_processing_system7_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_processing_system7_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_processing_system7_0_0_synth_1">
+    <Run Id="music_effect_axi_i2s_adi_0_2_synth_1" Type="Ft3:Synth" SrcSet="music_effect_axi_i2s_adi_0_2" Part="xc7z010clg400-1" ConstrsSet="music_effect_axi_i2s_adi_0_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_axi_i2s_adi_0_2_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_axi_i2s_adi_0_2_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_axi_i2s_adi_0_2_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -282,11 +236,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_xbar_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_xbar_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_xbar_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_xbar_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_xbar_0_synth_1">
+    <Run Id="music_effect_clk_slow_0_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_clk_slow_0_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_clk_slow_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_clk_slow_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_clk_slow_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_clk_slow_0_0_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -294,11 +246,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_rst_ps7_0_50M_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_rst_ps7_0_50M_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_rst_ps7_0_50M_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_rst_ps7_0_50M_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_rst_ps7_0_50M_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_rst_ps7_0_50M_0_synth_1">
+    <Run Id="music_effect_MCLK_gen_0_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_MCLK_gen_0_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_MCLK_gen_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_MCLK_gen_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_MCLK_gen_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_MCLK_gen_0_0_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -306,11 +256,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_axi_i2s_adi_0_2_synth_1" Type="Ft3:Synth" SrcSet="music_effect_axi_i2s_adi_0_2" Part="xc7z010clg400-1" ConstrsSet="music_effect_axi_i2s_adi_0_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_axi_i2s_adi_0_2_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_axi_i2s_adi_0_2_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_axi_i2s_adi_0_2_synth_1">
+    <Run Id="music_effect_PS_to_PL_0_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_PS_to_PL_0_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_PS_to_PL_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_PS_to_PL_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_PS_to_PL_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_PS_to_PL_0_0_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -318,11 +266,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_clk_slow_0_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_clk_slow_0_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_clk_slow_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_clk_slow_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_clk_slow_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_clk_slow_0_0_synth_1">
+    <Run Id="music_effect_Distortion_0_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_Distortion_0_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_Distortion_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_Distortion_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_Distortion_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_Distortion_0_0_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -330,11 +276,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_MCLK_gen_0_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_MCLK_gen_0_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_MCLK_gen_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_MCLK_gen_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_MCLK_gen_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_MCLK_gen_0_0_synth_1">
+    <Run Id="music_effect_control_0_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_control_0_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_control_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_control_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_control_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_control_0_0_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -342,11 +286,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_PS_to_PL_0_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_PS_to_PL_0_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_PS_to_PL_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_PS_to_PL_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_PS_to_PL_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_PS_to_PL_0_0_synth_1">
+    <Run Id="music_effect_PL_to_PS_0_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_PL_to_PS_0_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_PL_to_PS_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_PL_to_PS_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_PL_to_PS_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_PL_to_PS_0_0_synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -354,55 +296,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_Distortion_0_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_Distortion_0_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_Distortion_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_Distortion_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_Distortion_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_Distortion_0_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2022"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="music_effect_control_0_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_control_0_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_control_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_control_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_control_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_control_0_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2022"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="music_effect_PL_to_PS_0_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_PL_to_PS_0_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_PL_to_PS_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_PL_to_PS_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_PL_to_PS_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_PL_to_PS_0_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2022"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="music_effect_auto_pc_0_synth_1" Type="Ft3:Synth" SrcSet="music_effect_auto_pc_0" Part="xc7z010clg400-1" ConstrsSet="music_effect_auto_pc_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/music_effect_auto_pc_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_auto_pc_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_auto_pc_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2022"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
@@ -419,11 +313,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_processing_system7_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_processing_system7_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_processing_system7_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_processing_system7_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_processing_system7_0_0_impl_1">
+    <Run Id="music_effect_axi_i2s_adi_0_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_axi_i2s_adi_0_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_axi_i2s_adi_0_2_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_axi_i2s_adi_0_2_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_axi_i2s_adi_0_2_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -438,11 +330,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_xbar_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_xbar_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_xbar_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_xbar_0_impl_1">
+    <Run Id="music_effect_clk_slow_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_clk_slow_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_clk_slow_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_clk_slow_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_clk_slow_0_0_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -457,11 +347,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_rst_ps7_0_50M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_rst_ps7_0_50M_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_rst_ps7_0_50M_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_rst_ps7_0_50M_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_rst_ps7_0_50M_0_impl_1">
+    <Run Id="music_effect_MCLK_gen_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_MCLK_gen_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_MCLK_gen_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_MCLK_gen_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_MCLK_gen_0_0_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -476,11 +364,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_axi_i2s_adi_0_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_axi_i2s_adi_0_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_axi_i2s_adi_0_2_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_axi_i2s_adi_0_2_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_axi_i2s_adi_0_2_impl_1">
+    <Run Id="music_effect_PS_to_PL_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_PS_to_PL_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_PS_to_PL_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_PS_to_PL_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_PS_to_PL_0_0_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -495,11 +381,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_clk_slow_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_clk_slow_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_clk_slow_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_clk_slow_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_clk_slow_0_0_impl_1">
+    <Run Id="music_effect_Distortion_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_Distortion_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_Distortion_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_Distortion_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_Distortion_0_0_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -514,11 +398,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_MCLK_gen_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_MCLK_gen_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_MCLK_gen_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_MCLK_gen_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_MCLK_gen_0_0_impl_1">
+    <Run Id="music_effect_control_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_control_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_control_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_control_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_control_0_0_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -533,87 +415,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="music_effect_PS_to_PL_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_PS_to_PL_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_PS_to_PL_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_PS_to_PL_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_PS_to_PL_0_0_impl_1">
+    <Run Id="music_effect_PL_to_PS_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_PL_to_PS_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_PL_to_PS_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_PL_to_PS_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_PL_to_PS_0_0_impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2022"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="music_effect_Distortion_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_Distortion_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_Distortion_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_Distortion_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_Distortion_0_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2022"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="music_effect_control_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_control_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_control_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_control_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_control_0_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2022"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="music_effect_PL_to_PS_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_PL_to_PS_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_PL_to_PS_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_PL_to_PS_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_PL_to_PS_0_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2022"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="music_effect_auto_pc_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="music_effect_auto_pc_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="music_effect_auto_pc_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/music_effect_auto_pc_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/music_effect_auto_pc_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -629,9 +433,7 @@
       <RQSFiles/>
     </Run>
   </Runs>
-  <Board>
-    <Jumpers/>
-  </Board>
+  <Board/>
   <DashboardSummary Version="1" Minor="0">
     <Dashboards>
       <Dashboard Name="default_dashboard">
