@@ -16,9 +16,9 @@ entity control_v2_ip is
 	);
 	port (
 		-- Users to add ports here
-           Switches :  in STD_LOGIC_VECTOR (0 to 3);
+           --Switches :  in STD_LOGIC_VECTOR (0 to 3);
 		   clk_100hz : in std_logic;
-           butn_in : in STD_LOGIC_VECTOR (0 to 3);
+           --butn_in : in STD_LOGIC_VECTOR (0 to 3);
            Leds     : out STD_LOGIC_VECTOR (0 to 3); --left to right
            en       : out   STD_LOGIC_VECTOR (0 to 3);
            options0 : out STD_LOGIC_VECTOR (0 to 3);
@@ -64,9 +64,9 @@ architecture arch_imp of control_v2_ip is
 		);
 		port (
 		
-		Switches_in :  in STD_LOGIC_VECTOR (0 to 3);
+		--Switches_in :  in STD_LOGIC_VECTOR (0 to 3);
         clk_100hz_in : in std_logic;
-        butn_i : in STD_LOGIC_VECTOR (0 to 3);
+       -- butn_i : in STD_LOGIC_VECTOR (0 to 3);
         Leds_out     : out STD_LOGIC_VECTOR (0 to 3); --left to right
         en_out       : out   STD_LOGIC_VECTOR (0 to 3);
         options0_out : out STD_LOGIC_VECTOR (0 to 3);
@@ -108,9 +108,9 @@ control_v2_ip_slave_lite_v1_0_S00_AXI_inst : control_v2_ip_slave_lite_v1_0_S00_A
 	)
 	port map (
 	   
-	    Switches_in    => Switches,
+	   -- Switches_in    => Switches,
         clk_100hz_in   => clk_100hz,
-        butn_i         => butn_in,
+       -- butn_i         => butn_in,
         Leds_out       =>  Leds,
         en_out         => en ,
         options0_out   => options0,

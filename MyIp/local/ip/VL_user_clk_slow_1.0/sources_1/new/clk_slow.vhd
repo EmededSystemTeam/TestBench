@@ -12,12 +12,13 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity clk_slow is
     Port ( clk_in : in STD_LOGIC;
-           --clk_190hz : out STD_LOGIC;
-           --clk_380hz : out STD_LOGIC;
-           --clk_95hz : out STD_LOGIC;
+           clk_190hz : out STD_LOGIC;
+           clk_380hz : out STD_LOGIC;
+           clk_100khz : out STD_LOGIC;
+           clk_95hz : out STD_LOGIC;
            clk_48hz : out STD_LOGIC;
-           clk_12hz : out STD_LOGIC;
-           clk1hz5 : out STD_LOGIC
+           clk_48khz : out STD_LOGIC
+           --lk1hz5 : out STD_LOGIC
 --           clk_1k5hz : out STD_LOGIC;
 --           clk3k : out STD_LOGIC;
 --           clk_762hz : out STD_LOGIC;           
@@ -40,14 +41,16 @@ begin
 end process;
 
 --****** for control block *****
-clk_12hz <= clk_cntr(21);
-clk1hz5 <= clk_cntr(24);
+--clk_12hz <= clk_cntr(21);
+clk_48khz <= clk_cntr(9);
+clk_190hz <= clk_cntr(17);
+clk_100khz <= clk_cntr(8);
 --******************************
 
 --****** for tremolo  **********
---clk_380hz <= clk_cntr(16);
---clk_190hz <= clk_cntr(17);
---clk_95hz <= clk_cntr(18);
+clk_380hz <= clk_cntr(16);
+clk_190hz <= clk_cntr(17);
+clk_95hz <= clk_cntr(18);
 clk_48hz <= clk_cntr(19);
 --******************************
 

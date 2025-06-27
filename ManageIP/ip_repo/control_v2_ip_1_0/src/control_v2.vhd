@@ -59,7 +59,7 @@ architecture State_Machine of control_v2 is
     
     begin
     
-        process_clocked : process(clk_100hz, butn_in(3),butn_in(1),butn_in(0) )
+        process_clocked : process(clk_100hz, butn_in(3),butn_in(1),butn_in(0), present_state )
             begin
                 if(butn_in(3) = '1') then
                     present_state <= state_0;

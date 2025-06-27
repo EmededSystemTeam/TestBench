@@ -16,9 +16,9 @@ entity control_v2_ip_slave_lite_v1_0_S00_AXI is
 	);
 	port (
 		-- Users to add ports here
-		   Switches_in :  in STD_LOGIC_VECTOR (0 to 3);
+		   --Switches_in :  in STD_LOGIC_VECTOR (0 to 3);
 		   clk_100hz_in : in std_logic;
-           butn_i : in STD_LOGIC_VECTOR (0 to 3);
+           --butn_i : in STD_LOGIC_VECTOR (0 to 3);
            Leds_out     : out STD_LOGIC_VECTOR (0 to 3); --left to right
            en_out       : out   STD_LOGIC_VECTOR (0 to 3);
            options0_out : out STD_LOGIC_VECTOR (0 to 3);
@@ -138,12 +138,12 @@ architecture arch_imp of control_v2_ip_slave_lite_v1_0_S00_AXI is
         port( Switches : in STD_LOGIC_VECTOR (0 to 3); --left to right
                clk_100hz : in std_logic;
                butn_in : in STD_LOGIC_VECTOR (0 to 3); -- left to right- L,C,R
-               Leds : out STD_LOGIC_VECTOR (0 to 3) := "0000"; --left to right*
-               en : out STD_LOGIC_VECTOR (0 to 3):= "0000";
-               options0 : out STD_LOGIC_VECTOR (0 to 3):= "0000";
-               options1 : out STD_LOGIC_VECTOR (0 to 3):= "0000";
-               options2 : out STD_LOGIC_VECTOR (0 to 3):= "0000";
-               options3 : out STD_LOGIC_VECTOR (0 to 3):= "0000" );
+               Leds : out STD_LOGIC_VECTOR (0 to 3) ; --left to right*
+               en : out STD_LOGIC_VECTOR (0 to 3);
+               options0 : out STD_LOGIC_VECTOR (0 to 3);
+               options1 : out STD_LOGIC_VECTOR (0 to 3);
+               options2 : out STD_LOGIC_VECTOR (0 to 3);
+               options3 : out STD_LOGIC_VECTOR (0 to 3) );
    end component control_v2;
 
 	 --State machine local parameters
@@ -341,9 +341,9 @@ begin
 
 	-- Add user logic here
       users_control0 : control_v2 port map (
-               Switches   => Switches_in,
+               Switches   => slv_reg1(3 downto 0),
                clk_100hz  => clk_100hz_in,
-               butn_in    => butn_i,
+               butn_in    => slv_reg0(3 downto 0),
                Leds       =>  Leds_out,
                en         =>  en_out,
                options0   => options0_out,
